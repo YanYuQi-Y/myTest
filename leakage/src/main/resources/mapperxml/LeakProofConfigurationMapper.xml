@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fh.leakage.mapper.LeakProofConfigurationMapper">
+  <resultMap id="BaseResultMap" type="com.fh.leakage.entity.LeakProofConfiguration">
+    <!--@mbg.generated-->
+    <!--@Table leak_proof_configuration-->
+    <id column="leak_proof_configuration_id" jdbcType="INTEGER" property="leakProofConfigurationId" />
+    <result column="leak_proof_configuration_name" jdbcType="VARCHAR" property="leakProofConfigurationName" />
+    <result column="leak_proof_configuration_description" jdbcType="VARCHAR" property="leakProofConfigurationDescription" />
+    <result column="monitoring_application" jdbcType="INTEGER" property="monitoringApplication" />
+    <result column="other_application_levels" jdbcType="INTEGER" property="otherApplicationLevels" />
+    <result column="disable_applications_on_mobile_media" jdbcType="INTEGER" property="disableApplicationsOnMobileMedia" />
+    <result column="disable_saving_files_to_mobile_devices" jdbcType="INTEGER" property="disableSavingFilesToMobileDevices" />
+    <result column="mobile_media_monitoring" jdbcType="INTEGER" property="mobileMediaMonitoring" />
+    <result column="start_clipboard" jdbcType="INTEGER" property="startClipboard" />
+    <result column="start_screen_capture" jdbcType="INTEGER" property="startScreenCapture" />
+    <result column="monitor_local_file_to_network_path" jdbcType="INTEGER" property="monitorLocalFileToNetworkPath" />
+    <result column="allow_printers" jdbcType="INTEGER" property="allowPrinters" />
+    <result column="start_printer_monitoring" jdbcType="INTEGER" property="startPrinterMonitoring" />
+    <result column="start_printing_watermark" jdbcType="INTEGER" property="startPrintingWatermark" />
+    <result column="allow_client_to_uninstall" jdbcType="INTEGER" property="allowClientToUninstall" />
+    <result column="turn_on_picture_character_recognition" jdbcType="INTEGER" property="turnOnPictureCharacterRecognition" />
+    <result column="file_size_exceeded" jdbcType="INTEGER" property="fileSizeExceeded" />
+    <result column="upload_to_syslog_server" jdbcType="INTEGER" property="uploadToSyslogServer" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    leak_proof_configuration_id, leak_proof_configuration_name, leak_proof_configuration_description, 
+    monitoring_application, other_application_levels, disable_applications_on_mobile_media, 
+    disable_saving_files_to_mobile_devices, mobile_media_monitoring, start_clipboard, 
+    start_screen_capture, monitor_local_file_to_network_path, allow_printers, start_printer_monitoring, 
+    start_printing_watermark, allow_client_to_uninstall, turn_on_picture_character_recognition, 
+    file_size_exceeded, upload_to_syslog_server
+  </sql>
+</mapper>

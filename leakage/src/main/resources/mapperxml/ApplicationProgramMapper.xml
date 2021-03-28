@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fh.leakage.mapper.ApplicationProgramMapper">
+  <resultMap id="BaseResultMap" type="com.fh.leakage.entity.ApplicationProgram">
+    <!--@mbg.generated-->
+    <!--@Table application_program-->
+    <id column="application_program_id" jdbcType="INTEGER" property="applicationProgramId" />
+    <result column="application_program_name" jdbcType="VARCHAR" property="applicationProgramName" />
+    <result column="application_program_code" jdbcType="INTEGER" property="applicationProgramCode" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    application_program_id, application_program_name, application_program_code
+  </sql>
+</mapper>

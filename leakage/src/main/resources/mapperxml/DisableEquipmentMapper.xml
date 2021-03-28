@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fh.leakage.mapper.DisableEquipmentMapper">
+  <resultMap id="BaseResultMap" type="com.fh.leakage.entity.DisableEquipment">
+    <!--@mbg.generated-->
+    <!--@Table disable_equipment-->
+    <id column="disable_equipment_id" jdbcType="INTEGER" property="disableEquipmentId" />
+    <result column="equipment_program_id" jdbcType="INTEGER" property="equipmentProgramId" />
+    <result column="leak_proof_configuration_id" jdbcType="INTEGER" property="leakProofConfigurationId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    disable_equipment_id, equipment_program_id, leak_proof_configuration_id
+  </sql>
+</mapper>

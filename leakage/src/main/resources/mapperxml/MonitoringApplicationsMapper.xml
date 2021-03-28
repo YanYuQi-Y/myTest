@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fh.leakage.mapper.MonitoringApplicationsMapper">
+  <resultMap id="BaseResultMap" type="com.fh.leakage.entity.MonitoringApplications">
+    <!--@mbg.generated-->
+    <!--@Table monitoring_applications-->
+    <id column="monitoring_applications_id" jdbcType="INTEGER" property="monitoringApplicationsId" />
+    <result column="application_program_id" jdbcType="INTEGER" property="applicationProgramId" />
+    <result column="leak_proof_configuration_id" jdbcType="INTEGER" property="leakProofConfigurationId" />
+    <result column="monitoring_applications_type" jdbcType="INTEGER" property="monitoringApplicationsType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    monitoring_applications_id, application_program_id, leak_proof_configuration_id, 
+    monitoring_applications_type
+  </sql>
+</mapper>
