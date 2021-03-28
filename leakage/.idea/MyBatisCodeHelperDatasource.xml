@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MyBatisCodeHelperDatasource">
+    <option name="projectProfile">
+      <ProjectProfile>
+        <option name="addSerializeUid" value="true" />
+        <option name="generateService" value="true" />
+        <option name="generateServiceInterface" value="true" />
+        <option name="javaMapperPackage" value="com.fh.leakage.mapper" />
+        <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="javaModelPackage" value="com.fh.leakage.entity" />
+        <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+        <option name="lastDatabaseCrudChooseModuleName" value="leakage" />
+        <option name="lombokAllArgConstructor" value="true" />
+        <option name="lombokDataAnnotation" value="true" />
+        <option name="lombokNoArgsConstructor" value="true" />
+        <option name="mapperAnnotaion" value="true" />
+        <option name="moduleNameToPackageAndPathMap">
+          <map>
+            <entry key="leakage">
+              <value>
+                <UserPackageAndPathInfoByModule>
+                  <option name="javaMapperPackage" value="com.fh.leakage.mapper" />
+                  <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaModelPacakge" value="com.fh.leakage.entity" />
+                  <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaServiceInterfacePackage" value="com.fh.leakage.service" />
+                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="javaServicePackage" value="com.fh.leakage.service.impl" />
+                  <option name="javaServicePath" value="$PROJECT_DIR$/src/main/java" />
+                  <option name="xmlPackage" value="mapperxml" />
+                  <option name="xmlPath" value="$PROJECT_DIR$/src/main/resources" />
+                </UserPackageAndPathInfoByModule>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="mybatisPlusStaticField" value="false" />
+        <option name="p3CComment" value="true" />
+        <option name="tableGenerateConfigs">
+          <map>
+            <entry key="leak_proof_configuration_business:application_program">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="application_program_id" />
+                  <option name="javaModelName" value="ApplicationProgram" />
+                  <option name="moduleName" value="leakage" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="leak_proof_configuration_business:disable_equipment">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="disable_equipment_id" />
+                  <option name="javaModelName" value="DisableEquipment" />
+                  <option name="moduleName" value="leakage" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="leak_proof_configuration_business:equipment_program">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="equipment_program_id" />
+                  <option name="javaModelName" value="EquipmentProgram" />
+                  <option name="moduleName" value="leakage" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="leak_proof_configuration_business:leak_proof_configuration">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="leak_proof_configuration_id" />
+                  <option name="javaModelName" value="LeakProofConfiguration" />
+                  <option name="moduleName" value="leakage" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+            <entry key="leak_proof_configuration_business:monitoring_applications">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="monitoring_applications_id" />
+                  <option name="javaModelName" value="MonitoringApplications" />
+                  <option name="moduleName" value="leakage" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="userMybatisPlus" value="true" />
+        <option name="xmlMapperPackage" value="mapperxml" />
+        <option name="xmlMapperPath" value="$PROJECT_DIR$/src/main/resources" />
+      </ProjectProfile>
+    </option>
+  </component>
+</project>
